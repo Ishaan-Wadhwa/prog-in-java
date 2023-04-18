@@ -1,5 +1,6 @@
 // WAP that implements method overriding
-class derived extends lab5q1 {
+class derived extends lab5q1 
+{
     @Override
     public void display() 
     {
@@ -9,12 +10,12 @@ class derived extends lab5q1 {
 }
 public class lab5q1 
 {
-  int a= 90;
-   public void display()
+    int a= 90;
+    public void display()
     {
         System.out.println("the value of a before overriding : "+a);
     }
-   
+    
     public static void main(String args[])
     {
         lab5q1 obj1 = new lab5q1();
